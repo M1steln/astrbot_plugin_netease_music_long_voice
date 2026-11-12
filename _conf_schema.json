@@ -1,0 +1,32 @@
+{
+  "api_url": {
+    "type": "string",
+    "label": "网易云 API 地址",
+    "description": "自行部署的 NeteaseCloudMusicApi 服务地址，例如：http://127.0.0.1:3000",
+    "default": "http://127.0.0.1:3000"
+  },
+  "quality": {
+    "type": "string",
+    "label": "优先音质",
+    "description": "优先获取的音质（lossless / exhigh / higher / standard）。如果不可用，插件会自动尝试更低的音质。",
+    "default": "exhigh"
+  },
+  "search_limit": {
+    "type": "int",
+    "label": "搜索结果数量",
+    "description": "每次搜索时，向用户展示的歌曲选项数量。",
+    "default": 5
+  },
+  "vita_song_comment": {
+    "type": "bool",
+    "label": "薇塔歌曲点评",
+    "description": "播放后使用当前会话的聊天模型生成简短点评；模型不可用时使用预设回复。",
+    "default": true
+  },
+  "vita_use_hot_comments": {
+    "type": "bool",
+    "label": "参考歌曲热门评论",
+    "description": "点评时读取少量歌曲热门评论并发送给当前聊天模型作为参考；不可用时自动回退。",
+    "default": true
+  }
+}
