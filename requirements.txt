@@ -1,0 +1,4 @@
+# AstrBot will automatically pip install these packages on plugin installation.
+# FFmpeg system binary is still required for Record component。
+# See README.md for installation instructions.
+imageio-ffmpeg>=0.4.9
