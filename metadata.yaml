@@ -1,0 +1,8 @@
+name: "astrbot_plugin_netease_music_long_voice"
+display_name: "网易云点歌（薇塔版）"
+desc: "网易云点歌，支持 QQ 长歌曲语音、薇塔风格点评与按会话保存点歌记录"
+author: "M1steln"
+repo: "https://github.com/M1steln/astrbot_plugin_netease_music_long_voice"
+version: "2.1.0"
+astrbot_version: ">=4.29.4"
+config: true
